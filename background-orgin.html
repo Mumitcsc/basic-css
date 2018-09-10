@@ -1,0 +1,47 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Background-orgin</title>
+		<style>
+			#eaxample-1{
+				border:10px double black;
+				padding:50px;
+				background-image:url(images/Capture.PNG);
+				background-repeat:no-repeat;
+				background-orgin:padding-box;
+			
+			}
+			#eaxample-2{
+				border:10px double red;
+				padding:50px;
+				background-image:url(images/Capture.PNG);
+				background-repeat:no-repeat;
+				background-origin: border-box;
+			
+			}
+				#eaxample-3{
+				border:10px double black;
+				padding:50px;
+				background-image:url(images/Capture.PNG);
+				background-repeat:no-repeat;
+				background-origin:content-box;
+			
+			}
+		</style>
+	
+	<body>
+		<h2>background-orgin:padding box(default)</h2>
+			<div id="eaxample-1">
+			 The background image starts from the upper left corner of the padding 
+			 edge.
+			</div>
+			<br>
+			<div id="eaxample-2">
+			 The background image starts from the upper left corner of the padding edge.
+			</div>
+			<br>
+			<div id="eaxample-3">
+			 The background image starts from the upper left corner of the padding edge.
+			</div>
+	</body>
+</html>
